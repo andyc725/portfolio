@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muchen Cai — AI @ UCSB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">MC</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="greeting">Hi there 👋 I'm</p>
+                    <h1 class="name">Muchen Cai</h1>
+                    <h2 class="tagline">
+                        <span class="highlight">AI</span> student @ UC Santa Barbara
+                    </h2>
+                    <p class="bio">
+                        Incoming freshman studying Artificial Intelligence at UCSB.
+                        Passionate about machine learning, building cool software,
+                        and solving problems with code.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-card">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code><span class="kw">def</span> <span class="fn">about_me</span>():
+    <span class="kw">return</span> {
+        <span class="str">"name"</span>: <span class="str">"Muchen Cai"</span>,
+        <span class="str">"school"</span>: <span class="str">"UCSB"</span>,
+        <span class="str">"major"</span>: <span class="str">"AI"</span>,
+        <span class="str">"year"</span>: <span class="str">"Freshman '28"</span>,
+        <span class="str">"languages"</span>: [
+            <span class="str">"Python"</span>,
+            <span class="str">"Java"</span>,
+            <span class="str">"JavaScript"</span>
+        ],
+        <span class="str">"interests"</span>: [
+            <span class="str">"Machine Learning"</span>,
+            <span class="str">"Problem Solving"</span>,
+            <span class="str">"Building Stuff"</span>
+        ]
+    }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm an incoming freshman at <strong>UC Santa Barbara</strong> majoring in
+                            <strong>Artificial Intelligence</strong>. I love building things with code —
+                            from algorithmic problem-solving to full-fledged games and applications.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me grinding LeetCode / NeetCode problems,
+                            exploring new ML concepts, or working on side projects. I'm always looking
+                            for new things to learn and build.
+                        </p>
+                        <p class="class-of">Class of 2028 🎓</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-sub">A selection of things I've built</p>
+
+                <div class="projects-grid">
+                    <!-- Project 1: PokymanGame -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🎮</div>
+                            <div class="project-links">
+                                <a href="https://github.com/andyc725/PokymanGame" target="_blank" rel="noopener" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">PokymanGame</h3>
+                        <p class="project-desc">
+                            Console-based creature battle simulator built from an AP CSA project.
+                            Features turn-based combat, type-effectiveness mechanics, and proper
+                            OOP with encapsulation, ArrayLists, and separation of concerns.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag small">Java</span>
+                            <span class="tag small">OOP</span>
+                            <span class="tag small">Game Dev</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: NeetCode Submissions -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🧩</div>
+                            <div class="project-links">
+                                <a href="https://github.com/andyc725/neetcode-submissions" target="_blank" rel="noopener" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">NeetCode Submissions</h3>
+                        <p class="project-desc">
+                            My collection of NeetCode.io problem solutions. Continuously growing
+                            as I work through data structures & algorithms — arrays, strings,
+                            linked lists, trees, DP, and more.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag small">Python</span>
+                            <span class="tag small">Algorithms</span>
+                            <span class="tag small">Data Structures</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Tic Tac Toe -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">⭕</div>
+                            <div class="project-links">
+                                <a href="https://github.com/andyc725/tic_tac_toe_java" target="_blank" rel="noopener" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Tic Tac Toe</h3>
+                        <p class="project-desc">
+                            A classic Tic Tac Toe game built in Java for my CodeHS class project.
+                            Implements game logic, win detection, and player vs player gameplay.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag small">Java</span>
+                            <span class="tag small">Game Logic</span>
+                            <span class="tag small">Beginner Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="more-projects">
+                    <a href="https://github.com/andyc725" target="_blank" rel="noopener" class="btn btn-outline">
+                        See more on GitHub →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-sub">Always open to new opportunities and collaborations</p>
+
+                <div class="contact-links">
+                    <a href="https://github.com/andyc725" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">@andyc725</span>
+                        </div>
+                    </a>
+
+                    <a href="mailto:muchen.cai@example.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">Say hello →</span>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Connect →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Muchen Cai. Built with ❤️ and hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
